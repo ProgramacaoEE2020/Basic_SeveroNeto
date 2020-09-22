@@ -1,0 +1,37 @@
+10 DIM Chess$(8,8)
+11 Chess$(0,0) = "T"
+12 Chess$(7,0) = "T"
+13 Chess$(0,7) = "T"
+14  Chess$(7,7) = "T"
+15 Chess$(0,1) = "C"
+16 Chess$(7,1) = "C"
+17 Chess$(0,6) = "C"
+18 Chess$(7,6) = "C"
+19 Chess$(0,2) = "B"
+20 Chess$(7,2) = "B"
+21 Chess$(0,5) = "B"
+22 Chess$(7,5) = "B"
+23 Chess$(0,3) = "R"
+24 Chess$(7,3) = "R"
+25 Chess$(0,4) = "K"
+26 Chess$(7,4) = "K"
+
+27 FOR A = 0 TO 7
+28 Chess$(1,A) = "P"
+29 Chess$(6,A) = "P"
+30 Chess$(2,A) = " "
+31 Chess$(3,A) = " "
+32 Chess$(4,A) = " "
+33 Chess$(5,A) = " "
+40 NEXT A
+
+50 PRINT Chess$(0,0);" | ";Chess$(0,1);" | ";Chess$(0,2);" | ";Chess$(0,3);" | ";Chess$(0,4);" | ";Chess$(0,5);" | ";Chess$(0,6);" | ";Chess$(0,7)
+51 PRINT Chess$(1,0);" | ";Chess$(1,1);" | ";Chess$(1,2);" | ";Chess$(1,3);" | ";Chess$(1,4);" | ";Chess$(1,5);" | ";Chess$(1,6);" | ";Chess$(1,7)
+52 FOR A = 2 TO 5
+53 PRINT Chess$(A,0);" | ";Chess$(A,1);" | ";Chess$(A,2);" | ";Chess$(A,3);" | ";Chess$(A,4);" | ";Chess$(A,5);" | ";Chess$(A,6);" | ";Chess$(A,7)
+54 NEXT A
+55 PRINT Chess$(6,0);" | ";Chess$(6,1);" | ";Chess$(6,2);" | ";Chess$(6,3);" | ";Chess$(6,4);" | ";Chess$(6,5);" | ";Chess$(6,6);" | ";Chess$(6,7)
+56 PRINT Chess$(7,0);" | ";Chess$(7,1);" | ";Chess$(7,2);" | ";Chess$(7,3);" | ";Chess$(7,4);" | ";Chess$(7,5);" | ";Chess$(7,6);" | ";Chess$(7,7)
+  
+
+RUN
