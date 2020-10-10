@@ -9,9 +9,8 @@
 -fluxograma
 
 ![fluxograma](Codigo/fluxograma.JPG)
-asduhausdhaudhauhdas
-asidjaudhausdhausda
-aushdauhsdasd
+
+* Este programa basicamente printa todas as peças presentes em um jogo de tabuleiro apenas para demonstrar o funcionamento da linguagem BASIC, não estruturada.
 
 
 
